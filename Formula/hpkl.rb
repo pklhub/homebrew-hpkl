@@ -3,6 +3,8 @@ class Hpkl < Formula
     homepage "https://github.com/hpklio>/hpkl"
     version "0.8.0"
 
+    depends_on "pkl" => "0.27.1"
+
     on_macos do
         if Hardware::CPU.intel?
           url "https://github.com/hpklio/hpkl/releases/download/v0.8.0/hpkl_Darwin_x86_64.tar.gz"  
