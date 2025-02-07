@@ -1,7 +1,7 @@
 class Hpkl < Formula
     desc "Enhanced "
     homepage "https://github.com/hpklio>/hpkl"
-    version "0.8.0"
+    version "0.9.0"
 
     depends_on "pkl" => "0.27.1"
 
